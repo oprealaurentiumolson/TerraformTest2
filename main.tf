@@ -3,7 +3,7 @@ module "aws_reverse_proxy" {
   # Check for updates: https://github.com/futurice/terraform-utils/compare/v11.0...master
   # source = "github.com/somleng/terraform-aws-cloudfront-reverse-proxy"
 
-source = ""
+source = "github.com/somleng/terraform-aws-cloudfront-reverse-proxy"
 
   # S3 website endpoints are only available over plain HTTP
   origin_url = "http://${local.bucket_domain_name}/"
