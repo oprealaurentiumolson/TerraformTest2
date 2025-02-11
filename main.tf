@@ -1,7 +1,7 @@
 module "aws_reverse_proxy" {
   # Available inputs: 
   # Check for updates: https://github.com/futurice/terraform-utils/compare/v11.0...master
-  # source = "git::ssh://git@github.com/futurice/terraform-utils.git//aws_reverse_proxy"
+  # source = "github.com/somleng/terraform-aws-cloudfront-reverse-proxy"
 
 source = ""
 
